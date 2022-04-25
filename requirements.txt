@@ -1,0 +1,13 @@
+# python=3.6
+# tensorflow=1.15
+
+pytorch
+librosa
+tqdm
+skikit-image
+unidecode
+inflect
+docopt
+nltk
+IPython
+google.colab
