@@ -142,14 +142,14 @@ def run(Text, Emotion):
   hop_length = 250
   model.decoder.max_decoder_steps = 200
 
-  Emotion = "Neutral" #@param ["Neutral", "Angry", "Disgust", "Sleepiness", "Amused"]
-  Text = 'I am exhausted.' #@param {type:"string"}
+  # Emotion = "Neutral" #@param ["Neutral", "Angry", "Disgust", "Sleepiness", "Amused"]
+  # Text = 'I am exhausted.' #@param {type:"string"}
 
-  Emotion = "Disgust" #@param ["Neutral", "Angry", "Disgust", "Sleepiness", "Amused"]
-  Text = 'I am sorry to hear that.' #@param {type:"string"}
+  # Emotion = "Disgust" #@param ["Neutral", "Angry", "Disgust", "Sleepiness", "Amused"]
+  # Text = 'I am sorry to hear that.' #@param {type:"string"}
 
-  Emotion = "Angry" #@param ["Neutral", "Angry", "Disgust", "Sleepiness", "Amused"]
-  Text = 'I am sorry to hear that.' #@param {type:"string"}
+  # Emotion = "Angry" #@param ["Neutral", "Angry", "Disgust", "Sleepiness", "Amused"]
+  # Text = 'I am sorry to hear that.' #@param {type:"string"}
 
   wav, align, mel = None, None, None
 
